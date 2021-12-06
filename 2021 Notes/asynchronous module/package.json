@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "asyn": "^0.0.1",
+    "async": "^3.2.0",
+    "node-fetch": "^2.6.1"
+  }
+}

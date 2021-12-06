@@ -1,0 +1,26 @@
+Get all employee Details 
+
+http://localhost:9999/empDetails
+
+Get Specific employee Details 
+
+http://localhost:9999/empById/100
+
+Store or Post Method Employee Records 
+
+http://localhost:9999/storeEmployee 
+header : content-type   application/json 
+Data : {"id":101,"name":"Lokesh","salary":18000}
+
+Update the Salary using employee id 
+put method 
+
+http://localhost:9999/updateSalary
+
+
+Delete the records using employee id 
+
+delete methods 
+
+http://localhost:9999/deleteInfo/100
+

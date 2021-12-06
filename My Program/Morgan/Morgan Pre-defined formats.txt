@@ -1,0 +1,12 @@
+default - Standard output.
+short - Shorter than default, also including response time.
+tiny - The minimal.
+dev - Concise output colored by response status for development use.
+Options
+Morgan accepts these properties in the options object.
+
+format - Format string or Setting, see below for format tokens.
+stream - Output stream, defaults to stdout.
+buffer - Buffer duration, defaults to 1000 ms when true.
+immediate - Write log line on request instead of response (for response times).
+skip - Function to determine if logging is skipped, called as skip(req, res), defaults to false.
